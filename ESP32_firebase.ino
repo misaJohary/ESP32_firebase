@@ -71,7 +71,7 @@ FirebaseJson json;
 const char* ntpServer = "pool.ntp.org";
 
 unsigned long sendDataPrevMillis = 0;
-unsigned long timerDelay = 10000;
+unsigned long timerDelay = 15000;
 
 // Initialize WiFi
 void initWiFi() {
